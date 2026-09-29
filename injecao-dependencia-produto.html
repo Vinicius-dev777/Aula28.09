@@ -1,0 +1,23 @@
+<p>injecao-dependencia-produto works!</p>
+<div>
+<h1>Produtos</h1>
+<ul>
+    @for ( p of produtos; track $index) {
+        <li>
+            <span>{{ $index + 1}}</span>
+            {{ p }}
+
+        </li>
+     } @empty {
+            <li> Nenhum produto encontrado.</li>
+        }
+    
+</ul>
+<div>
+
+
+
+
+
+
+</div>
